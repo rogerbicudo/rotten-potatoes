@@ -41,7 +41,7 @@ jobs:
        with:
         images: rbicudo0/rotten-potatoes:${{ github.run_number}}
         manifests: |
-          k8s/deployment.yaml
+          src/k8s/deployment.yaml
      
       
    
