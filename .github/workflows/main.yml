@@ -21,8 +21,4 @@ jobs:
         with:
    
           username: ${{ secrets.DOCKERHUB_USER }}
-          password: ${{ secrets.DOCKERHUB_PWD }}
-
-        ecr: 
-  
-        logout:    
+          password: ${{ secrets.DOCKERHUB_PWD }}  
